@@ -1,0 +1,30 @@
+body h1 {
+    font-size: 400%;
+    text-align: center;
+}
+
+body h2 {
+    text-align: center;
+}
+
+body>p {
+    text-align: center;
+}
+
+#projects {
+    display: grid;
+}
+#projects > h3, #projects > h2 {
+    margin: 10px;
+}
+
+#rwesaga {
+    background: var(--dark);
+    justify-self: center;
+    width: fit-content;
+    border-radius: 15px;
+    padding: 20px;
+}
+#rwesaga>h3 {
+    margin: 10px;
+}
