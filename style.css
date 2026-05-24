@@ -45,7 +45,7 @@ h2 {
 }
 
 .songimg {
-    width: 10cm;
+    width: min(80vw, 80vh, 10cm);
     border-radius: 10px;
     margin: 40px;
     box-shadow: 20px 20px 5px var(--shadow);
@@ -59,8 +59,7 @@ h2 {
 }
 
 .songimg > img {
-    width: 10cm;
-    height: 10cm;
+    width: 100%;
     border-radius: 10px;
     box-shadow: 0 0 15px 5px var(--shadow);
     transition: border-radius, box-shadow;
@@ -149,7 +148,7 @@ details {
 }
 
 #avatar > img {
-    width: 8cm;
+    width: min(8cm, 90vw, 80vh);
 }
 
 audio {
